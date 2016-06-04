@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+<title>Zhenqin Dong | Portfolio</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<!-- Loading -->
+<script type="text/javascript">
+$(function () {
+    $('.main_content, .main_navi').hide();
+    $(window).load(function () {
+        $('#loader').fadeOut();
+        $('.main_content, .main_navi').fadeIn(2000);
+    });
+});
+$(document).ready(function () {
+    $("body").css("display", "none");
+    $("body").fadeIn(2000);
+    $("a.transition").click(function (event) {
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(1000, redirectPage);
+    });
+
+    function redirectPage() {
+        window.location = linkLocation;
+    }
+});
+</script>
+</head>
+<body id="portfolio">
+<div id="container">
+  <div class="stripe"></div>
+  <div id="content">
+    <!-- Header -->
+    <div id="header">
+      <div id="loader"><img alt="" src="img/ajax-loader.gif" /></div>
+      <ul class="main_navi">
+        <li><a class="transition" href="index.html">Home</a></li>
+        <li><a class="transition" href="about.html">About</a></li>
+        <li class="current"><a class="transition" href="portfolio.html">Portfolio</a></li>
+        <li><a class="transition" href="contacts.html">Contacts</a></li>
+      </ul>
+      <!-- <a href="index.html"><img alt="" class="logo" src="img/logo.png" /></a> </div> -->
+      <!-- <a/></a>  -->
+    </div>
+    <!-- Top Content -->
+    <div class="main_content">
+      <div id="about_page">
+        <h2 class="portfolio">Here you can see my work</h2>
+        <p class="portfolio">TODO: THIS paragraph should be a brief description of the projects listed on this page.</p>
+      </div>
+      <ul class="work_list">
+        <li>
+          <div class="work_preview"><a class="transition" href="view-work.html"><img alt="" src="img/portfolio/preview/1.png" /></a> <a class="transition" href="view-work.html"><img alt="" class="view" src="img/linz.png" /></a> </div>
+          <div class="work_info">
+            <h2><a class="transition" href="view-work.html">TODO: PROJECT1 title</a></h2>
+          </div>
+        </li>
+        <li class="last_img">
+          <div class="work_preview"><a class="transition" href="view-work.html"><img alt="" src="img/portfolio/preview/2.png" /></a> <a class="transition" href="view-work.html"><img alt="" class="view" src="img/linz.png" /></a> </div>
+          <div class="work_info">
+            <h2><a class="transition" href="view-work.html">TODO: PROJECT2 title</a></h2>
+          </div>
+        </li>
+        <li>
+          <div class="work_preview"><a class="transition" href="view-work.html"><img alt="" src="img/portfolio/preview/3.png" /></a> <a class="transition" href="view-work.html"><img alt="" class="view" src="img/linz.png" /></a> </div>
+          <div class="work_info">
+            <h2><a class="transition" href="view-work.html">TODO: PROJECT3 title</a></h2>
+          </div>
+        </li>
+        <li class="last_img">
+          <div class="work_preview"><a class="transition" href="view-work.html"><img alt="" src="img/portfolio/preview/4.png" /></a> <a class="transition" href="view-work.html"><img alt="" class="view" src="img/linz.png" /></a> </div>
+          <div class="work_info">
+            <h2><a class="transition" href="view-work.html">TODO: PROJECT4 title</a></h2>
+          </div>
+        </li>
+        <li>
+          <div class="work_preview"><a class="transition" href="view-work.html"><img alt="" src="img/portfolio/preview/5.png" /></a> <a class="transition" href="view-work.html"><img alt="" class="view" src="img/linz.png" /></a> </div>
+          <div class="work_info">
+            <h2><a class="transition" href="view-work.html">TODO: PROJECT5 title</a></h2>
+          </div>
+        </li>
+        <li class="last_img">
+          <div class="work_preview"><a class="transition" href="view-work.html"><img alt="" src="img/portfolio/preview/6.png" /></a> <a class="transition" href="view-work.html"><img alt="" class="view" src="img/linz.png" /></a> </div>
+          <div class="work_info">
+            <h2><a class="transition" href="view-work.html">TODO: PROJECT6 title</a></h2>
+          </div>
+        </li>
+      </ul>
+      <ul class="page_navi">
+        <li class="current"><a href="portfolio.html">1</a></li>
+        <li><a href="portfolio.html">2</a></li>
+        <li><a href="portfolio.html">3</a></li>
+        <li><a href="portfolio.html">4</a></li>
+        <li><a href="portfolio.html">5</a></li>
+      </ul>
+      <div id="footer"> &copy; Zhenqin Dong 2016 All rights reserved. | Website Produced by Xinyi Cen.</a>
+        <ul class="footer_navi">
+          <li><a class="transition" href="index.html">Home</a></li>
+          <li><a class="transition" href="about.html">About</a></li>
+          <li class="current"><a class="transition" href="portfolio.html">Portfolio</a></li>
+          <li><a class="transition" href="blog.html">Blog</a></li>
+          <li><a class="transition" href="contacts.html">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
