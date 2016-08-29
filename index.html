@@ -27,40 +27,42 @@
 	
 
 	<!-- Navigation -->
-    <div id="navigation">
-        <nav class="navbar navbar-custom" role="navigation">
-			<div class="container">
-			    <div class="row">
-					<div class="col-md-4">
-						<div class="site-logo">
-						        <a href="index.html" class="brand">Zhenqin Dong</a>
+	<section id="navi">
+	    <div id="navigation">
+	        <nav class="navbar navbar-custom" role="navigation">
+				<div class="container">
+				    <div class="row">
+						<div class="col-md-4">
+							<div class="site-logo">
+							    <a href="index.html" class="brand">Zhenqin Dong</a>
+							</div>
 						</div>
-					</div>
 
-					<div class="col-md-8">
+						<div class="col-md-8">
 
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-					    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-					    	<i class="fa fa-bars"></i>
-					    </button>
-					</div>
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+						    	<i class="fa fa-bars"></i>
+						    </button>
+						</div>
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="menu">
 						    <ul class="nav navbar-nav navbar-right">
-								<li class="active"><a href="#intro">Home</a></li>
+								<li class="active"><a href="#navi">Home</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#works">Portfolio</a></li>
 								<li><a href="#contact">Contact</a></li>
 						    </ul>
 						</div>
 						<!-- /.Navbar-collapse -->
-					</div>
-			    </div>
-			</div>
-			<!-- /.container -->
-	    </nav>
-    </div> 
+						</div>
+				    </div>
+				</div>
+				<!-- /.container -->
+		    </nav>
+	    </div> 
+    </section>
     <!-- /Navigation --> 
 
 
@@ -237,7 +239,7 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<!-- <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s"> -->
 					<div class="section-heading text-center">
-						<h2 class="h-bold">Write me a letter</h2>
+						<h2 class="h-bold">Write Me A Letter</h2>
 						<div class="divider-header"></div>
 					</div>
 				</div>
@@ -247,28 +249,30 @@
 		<div class="container">
 			<div class="row marginbot-80">
 				<div class="col-md-8 col-md-offset-2">
-					<form id="contact-form" >
+					<form id="contact-form" enctype="text/plain" action="https://goo.gl/forms/2IHF1KiEMkkcevet1" target="hidden_iframe" onsubmit="submitted=true;">
 						<!-- class="wow bounceInUp" data-wow-offset="10" data-wow-delay="0.2s" -->
 						<div class="row marginbot-20">
 							<div class="col-md-6 xs-marginbot-20">
-								<input type="text" class="form-control input-lg" id="name" placeholder="Enter name" required="required" />
+								<input type="text" class="form-control input-lg" id="entry.981529372" placeholder="Enter name" required="required" />
 							</div>
 							<div class="col-md-6">
-								<input type="email" class="form-control input-lg" id="email" placeholder="Enter email" required="required" />
+								<input type="email" class="form-control input-lg" id="entry.1016309069" placeholder="Enter email" required="required" />
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="text" class="form-control input-lg" id="subject" placeholder="Subject" required="required" />
+									<input type="text" class="form-control input-lg" id="entry.1215527514" placeholder="Subject" required="required" />
 								</div>
 								<div class="form-group">
-									<textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required" placeholder="Message"></textarea>
+									<textarea name="message" id="entry.1228477384" class="form-control" rows="4" cols="25" required="required" placeholder="Message"></textarea>
 								</div>						
 								<button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs"><a href="mailto:cenxinyiapp@gmail.com"></a>Send Message</button>
 							</div>
 						</div>
 					</form>
+
+					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 				</div>
 			</div>
 		</div>
@@ -281,7 +285,7 @@
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
 					<div class="text-center">
-						<a href="#intro" class="totop"><i class="fa fa-angle-up fa-3x"></i></a>
+						<a href="#navi" class="totop"><i class="fa fa-angle-up fa-3x"></i></a>
 
 						<p>Rice University. 6100 Main St., Houston, TX 77005<br />
 						&copy;Zhenqin Dong 2016 All rights reserved. | Website Produced by Zhenqin Dong and Richard Cen.</a></p>

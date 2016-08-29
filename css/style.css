@@ -1029,11 +1029,19 @@ a.btn:focus{
 @media (max-width:480px) {
 
 	.navbar-custom .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+	    background-color: rgba(255,255,255,.4);
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {
 		margin-bottom: 30px;
+	}
+
+	.site-logo {
+		margin-left: -30px;
+	}
+
+	.navbar-toggle {
+		margin-right: -30px;
 	}
 }
 
