@@ -249,30 +249,40 @@
 		<div class="container">
 			<div class="row marginbot-80">
 				<div class="col-md-8 col-md-offset-2">
-					<form id="contact-form" enctype="text/plain" action="https://goo.gl/forms/2IHF1KiEMkkcevet1" target="hidden_iframe" onsubmit="submitted=true;">
+
+					<script src="js/jquery.min.js"></script>
+					<script type="text/javascript">var submitted=false;</script>
+					<script type="text/javascript">
+					$('#contact-form').on('submit', function(e) {
+						$('#contact-form *').fadeOut(2000);
+						$('#contact-form').prepend('Your submission has been processed...');
+					});
+					</script>
+
+					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+					<form name="contact-form" id="contact-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScUP_fSuWAh7ghIaj020ZsPe7N0U3rGhgW2fp_KntVQR8eSfw/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
 						<!-- class="wow bounceInUp" data-wow-offset="10" data-wow-delay="0.2s" -->
 						<div class="row marginbot-20">
 							<div class="col-md-6 xs-marginbot-20">
-								<input type="text" class="form-control input-lg" id="entry.981529372" placeholder="Enter name" required="required" />
+								<input type="text" class="form-control input-lg" name = "entry.981529372" id="entry.981529372" placeholder="Enter name" required="required" />
 							</div>
 							<div class="col-md-6">
-								<input type="email" class="form-control input-lg" id="entry.1016309069" placeholder="Enter email" required="required" />
+								<input type="email" class="form-control input-lg" name="entry.1016309069" id="entry.1016309069" placeholder="Enter email" required="required" />
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="text" class="form-control input-lg" id="entry.1215527514" placeholder="Subject" required="required" />
+									<input type="text" class="form-control input-lg" name="entry.1215527514" id="entry.1215527514" placeholder="Subject" required="required" />
 								</div>
 								<div class="form-group">
-									<textarea name="message" id="entry.1228477384" class="form-control" rows="4" cols="25" required="required" placeholder="Message"></textarea>
+									<textarea name="entry.1228477384" id="entry.1228477384" class="form-control" rows="4" cols="25" required="required" placeholder="Message"></textarea>
 								</div>						
-								<button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs"><a href="mailto:cenxinyiapp@gmail.com"></a>Send Message</button>
+								<button type="submit" value="Submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs">Send Message</button>
 							</div>
 						</div>
 					</form>
-
-					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 				</div>
 			</div>
 		</div>
