@@ -1223,10 +1223,10 @@ a.btn:focus{
 
 .project_detail_title {
 	color: #535151;
-    font-size: 30px;
-    line-height: 15px;
+    font-size: 25px;
+    line-height: 25px;
     font-weight: normal;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 /****Project Facts****/
