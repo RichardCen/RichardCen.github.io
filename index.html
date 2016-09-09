@@ -21,7 +21,19 @@
     <link href="css/style.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
 
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript">var submitted=false;</script>
+	<script>
+	$(document).ready(function(){
+		$("#btnContactUs").click(function(){
+			$("#contact-form *").fadeOut(2000);
+			$('#contact-form').prepend('Your submission has been processed...');
+		});
+	});
+	</script>
 </head>
+
+
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 	
@@ -252,18 +264,6 @@
 		<div class="container">
 			<div class="row marginbot-80">
 				<div class="col-md-8 col-md-offset-2">
-
-					<script src="js/jquery.min.js"></script>
-					<script type="text/javascript">var submitted=false;</script>
-					<script type="text/javascript">
-					$('#contact-form').on('submit', function(e) {
-						$('#contact-form *').fadeOut(2000);
-						$('#contact-form').prepend('Your submission has been processed...');
-					});
-					</script>
-
-					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
 					<form name="contact-form" id="contact-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScUP_fSuWAh7ghIaj020ZsPe7N0U3rGhgW2fp_KntVQR8eSfw/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
 						<!-- class="wow bounceInUp" data-wow-offset="10" data-wow-delay="0.2s" -->
 						<div class="row marginbot-20">
@@ -286,6 +286,9 @@
 							</div>
 						</div>
 					</form>
+
+					<!-- block the redirect -->
+					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 				</div>
 			</div>
 		</div>
