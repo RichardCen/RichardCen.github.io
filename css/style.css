@@ -544,7 +544,7 @@ section#intro {
 }
 
 .header-text h3 span {
-	color: #fff;
+	color: #666;
 	font-size: 25px;
 	font-weight:200;
 }
@@ -555,14 +555,14 @@ section#intro {
 }
 
 .btn-theme {
-    color: #fff;
+    color: #666;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #666;
     margin-right: 15px;
 }
 
 .btn-theme:hover {
-    color: #000;
+    color: #666;
     background-color: #fff;
     border-color: #fff;
 }
@@ -865,7 +865,7 @@ footer .social-widget ul.team-social li a {
 	position: relative;
 	display: inline-block;
 	outline: none;
-	color: #fff;
+	color: #666;
 	text-decoration: none;
 	/*text-transform: uppercase;*/
 	letter-spacing: 1px;
