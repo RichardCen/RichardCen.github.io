@@ -58,6 +58,9 @@ h6 {
 	color: #111;
 	margin-top:-20px;
 }
+h5 {
+	color:#666;
+}
 
 h1.h-xlight,h2.h-xlight,h3.h-xlight ,h4.h-xlight ,h5.h-xlight ,h6.h-xlight  {
 	font-weight: 200;
@@ -467,6 +470,7 @@ section#intro {
 	background-image: none;
 	background-repeat: no-repeat;
 	text-shadow: none;
+	color: #666;
 }
 
 .carousel-control.left span {
