@@ -1228,25 +1228,26 @@ a.btn:focus{
     font-weight: normal;
 }
 
-.blog {
+.portfolio {
     margin-right: -1px;
     padding-top: 30px;
 }
 
-.blog +.blog  {
+.portfolio +.portfolio  {
     padding-top: 40px;
 }
 
-.blog img {
+.portfolio img {
     border: 1px solid #f2f1f2;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
-    margin-bottom: 21px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
-.blog_title {
+.portfolio_title {
     margin-bottom: 17px;
     color: #535151;
     font-size: 28px;
@@ -1254,7 +1255,7 @@ a.btn:focus{
     font-weight: normal;
 }
 
-.blog_content {
+.portfolio_content {
     color: #535151;
     font-size: 18px;
     line-height: 5px;
@@ -1262,8 +1263,13 @@ a.btn:focus{
     margin-top: -10px;
 }
 
-.blog h6 {
-	margin-top:-20px;
+.portfolio h6 {
+	margin-top:0px;
+}
+
+.portfolio p {
+	margin-top: 20px;
+	margin-bottom: 0px;
 }
 
 /****Project Detail****/
