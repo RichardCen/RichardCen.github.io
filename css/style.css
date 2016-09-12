@@ -526,6 +526,10 @@ section#intro {
   padding-left: 0;
 }
 
+.carousel-indicators .active {
+	color:#666;
+}
+
 
 /* Carousel Header Styles */
 .header-text {
