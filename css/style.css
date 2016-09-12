@@ -526,6 +526,10 @@ section#intro {
   padding-left: 0;
 }
 
+.carousel-indicators li {
+    background-color: #666;
+}
+
 
 /* Carousel Header Styles */
 .header-text {
@@ -609,6 +613,25 @@ section#intro {
     width: 100%;
     height: auto;
 }	
+
+ul.career_exp ul a {
+	font-weight:bold;
+	color:#161616;
+	text-decoration:none;
+}
+
+ul.skills {
+	margin-top:20px;
+}
+ul.skills ul a {
+	font-weight:bold;
+	color:#161616;
+	text-decoration:none;
+	font-size:20px;
+}
+ul.skills li {
+	margin-left:20px;
+}
 
 /* ===========================
 --- Contact
