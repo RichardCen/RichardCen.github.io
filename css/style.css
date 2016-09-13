@@ -2,7 +2,7 @@
 
 /* ==== Google font ==== */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
-@import url('http://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
+@import url('http://fonts.googleapis.com/css?family=Ek+Mukta:100,200,300,400,500,600,700');
 
 
 body {
@@ -552,9 +552,9 @@ section#intro {
 	font-weight:200;
 }
 
-.carousel-header-text {
+.carousel-caption > p {
 	color: #666;
-	font-size: 26px;
+	font-size: 24px;
 	font-weight: 100;
 	margin-bottom: 0px;
 }
