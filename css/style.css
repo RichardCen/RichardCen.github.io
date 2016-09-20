@@ -1272,6 +1272,12 @@ a.btn:focus{
 	margin-bottom: 0px;
 }
 
+.portfolio_caption {
+	color: #666;
+	font-size: 18px;
+	font-weight: normal;
+}
+
 /****Project Detail****/
 .project_detail {
 	padding-top: 30px;
