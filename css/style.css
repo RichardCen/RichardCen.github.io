@@ -331,8 +331,8 @@ hr.bold {
 ============================ */
 
 .home-section {
-    padding-top: 150px;
-    padding-bottom: 110px;
+    margin-top: 150px;
+    margin-bottom: 110px;
 	display:block;
     position:relative;
     z-index:120;
@@ -344,8 +344,16 @@ hr.bold {
 }
 
 
-.home-section.nopadd-bot {
-    padding-bottom: 0;
+/*.home-section.nomargin-bot {
+    margin-bottom: 0;
+}*/
+
+.contact-section {
+	padding-top: 50px;
+    margin-bottom: 0px;
+	display:block;
+    position:relative;
+    z-index:120;
 }
 
 
@@ -1271,14 +1279,18 @@ a.btn:focus{
 
 .portfolio_caption {
 	color: #666;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: normal;
 }
 
 .portfolio_sub_title {
-	color: #111;
+	color: #555;
 	font-size: 16px;
+
 	font-weight: normal;
+	margin-bottom: 20px;
+	text-align: left;
+	
 }
 
 /****Project Detail****/
