@@ -331,7 +331,7 @@ hr.bold {
 ============================ */
 
 .default-section {
-    padding-top: 150px;
+    padding-top: 110px;
 	display:block;
     position:relative;
     z-index:120;
@@ -347,7 +347,7 @@ hr.bold {
 
 
 .contact-section {
-    padding-top: 80px;
+    padding-top: 110px;
 	display:block;
     position:relative;
     z-index:120;
