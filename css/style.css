@@ -330,27 +330,24 @@ hr.bold {
 --- General sections
 ============================ */
 
-.home-section {
-    margin-top: 150px;
-    margin-bottom: 110px;
+.default-section {
+    padding-top: 150px;
 	display:block;
     position:relative;
     z-index:120;
 }
 
-.inner-section {
+.about-section {
     padding-top: 110px;
-    padding-bottom: 110px;
+    padding-bottom: 50px;
+	display:block;
+    position:relative;
+    z-index:120;
 }
 
 
-/*.home-section.nomargin-bot {
-    margin-bottom: 0;
-}*/
-
 .contact-section {
-	padding-top: 50px;
-    margin-bottom: 0px;
+    padding-top: 80px;
 	display:block;
     position:relative;
     z-index:120;
