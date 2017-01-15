@@ -188,7 +188,7 @@ blockquote strong {
 
 
 .navbar {
-    margin-bottom: 0;
+    margin-bottom: -20px;
 }
 
 .navbar-brand {
