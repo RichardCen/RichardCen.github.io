@@ -64,27 +64,27 @@
 	//owl carousel
 	$('#owl-works-architecture').owlCarousel({
             items : 4,
-            itemsDesktop : [1199,5],
-            itemsDesktopSmall : [980,5],
-            itemsTablet: [768,5],
+            itemsDesktop : [1199,4],
+            itemsDesktopSmall : [980,4],
+            itemsTablet: [768,4],
             itemsTabletSmall: [550,2],
             itemsMobile : [480,2],
         });
 
 	$('#owl-works-website').owlCarousel({
             items : 4,
-            itemsDesktop : [1199,5],
-            itemsDesktopSmall : [980,5],
-            itemsTablet: [768,5],
+            itemsDesktop : [1199,4],
+            itemsDesktopSmall : [980,4],
+            itemsTablet: [768,4],
             itemsTabletSmall: [550,2],
             itemsMobile : [480,2],
         });
 
 	$('#owl-works-product').owlCarousel({
             items : 4,
-            itemsDesktop : [1199,5],
-            itemsDesktopSmall : [980,5],
-            itemsTablet: [768,5],
+            itemsDesktop : [1199,4],
+            itemsDesktopSmall : [980,4],
+            itemsTablet: [768,4],
             itemsTabletSmall: [550,2],
             itemsMobile : [480,2],
         });
